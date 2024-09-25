@@ -1,0 +1,95 @@
+[
+  {
+    "model": "shop.category",
+    "pk": 1,
+    "fields": {
+      "name": "Электроника",
+      "slug": "elektronika"
+    }
+  },
+  {
+    "model": "shop.category",
+    "pk": 2,
+    "fields": {
+      "name": "Одежда",
+      "slug": "odezhda"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 1,
+    "fields": {
+      "name": "Смартфоны",
+      "slug": "smartfony",
+      "category": 1
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 2,
+    "fields": {
+      "name": "Ноутбуки",
+      "slug": "noutbuki",
+      "category": 1
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 3,
+    "fields": {
+      "name": "Футболки",
+      "slug": "futbolki",
+      "category": 2
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 1,
+    "fields": {
+      "name": "iPhone",
+      "slug": "iphone",
+      "subcategory": 1,
+      "price": "79999.99"
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 2,
+    "fields": {
+      "name": "Samsung",
+      "slug": "samsung",
+      "subcategory": 1,
+      "price": "60000.00"
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 3,
+    "fields": {
+      "name": "MacBook",
+      "slug": "macbook",
+      "subcategory": 2,
+      "price": "100000.00"
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 4,
+    "fields": {
+      "name": "Футболка",
+      "slug": "futbolka",
+      "subcategory": 3,
+      "price": "2000.50"
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 5,
+    "fields": {
+      "name": "Джинсы",
+      "slug": "dzhinsy",
+      "subcategory": 3,
+      "price": "5000.00"
+    }
+  }
+]
