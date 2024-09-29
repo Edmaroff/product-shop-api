@@ -83,9 +83,11 @@ venv\Scripts\activate</code></pre>
   <li>Загрузите фикстуру в БД:
     <pre><code>python manage.py loaddata .\apps\shop\fixtures\shop_data.json</code></pre>
   </li>
-
   <li>Запустите сервер:
     <pre><code>python manage.py runserver</code></pre>
+  </li>
+  <li>Документация Swagger доступна по ссылке:
+    <pre><code>http://127.0.0.1:8000/api/docs/</code></pre>
   </li>
 </ol>
 <hr>
